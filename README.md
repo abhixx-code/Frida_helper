@@ -20,3 +20,11 @@
 pkg update && pkg upgrade
 pkg install python
 pip install frida-tools pyfiglet
+
+
+🧠 Kaise Use Kare:
+1. Install dependencies:  
+   pip install frida-tools pyfiglet
+2. USB debugging enable karo aur Frida-server run karo device pe
+3. Run script:  
+   python frida_helper.py com.example.app hook.js
